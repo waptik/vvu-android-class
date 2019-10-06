@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">waptik - Assignment 2</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="enter_grade">Enter grade</string>
+    <string name="submit_grade">Submit grade</string>
+    <string name="tip_percentage">15%</string>
+    <string name="tip">Tip</string>
+    <string name="tipBtn">Tip Calculator</string>
+    <string name="gradeBtn">Grade Checker</string>
+    <string name="mainBtn">Home</string>
+    <string name="mainActivity_titleBar">Home</string>
+    <string name="layout_bg">#C0BACC</string>
+    <string name="assign">Second Assignment</string>
+    <string name="gradeActivity_titleBar">Grade Checker</string>
+    <string name="tipActivity_titleBar">Tip Calculator</string>
+    <string name="copyright">github.com/waptik</string>
+    <string name="total">Total</string>
+</resources>

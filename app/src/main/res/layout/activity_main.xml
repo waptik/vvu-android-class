@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0BACC">
+
+    <Button
+        android:id="@+id/tipBtn"
+        android:layout_width="146dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="360dp"
+        android:background="#CDDC39"
+        android:text="@string/tipBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gradeBtn"
+        android:layout_width="171dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="360dp"
+        android:background="#CDDC39"
+        android:text="@string/gradeBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="414dp"
+        android:layout_height="52dp"
+        android:gravity="center"
+        android:text="@string/assign"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="235dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/copyright"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <TextView
+        android:id="@+id/title_bar"
+        android:layout_width="414dp"
+        android:layout_height="52dp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="@string/mainActivity_titleBar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="3dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

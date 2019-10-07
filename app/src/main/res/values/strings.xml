@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Class Activity 3</string>
+    <string name="add">+</string>
+    <string name="substraction">-</string>
+    <string name="divide">/</string>
+    <string name="multiply">*</string>
+</resources>
